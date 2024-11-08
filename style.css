@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87ceeb; /* Sky blue */
+}
+
+#game-container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#road {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, gray);
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    left: 125px; /* Centered */
+}
+
+.obstacle {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: blue; /* Opponent cars */
+}
